@@ -12,6 +12,7 @@ public class WaterTempHeatCalc{
     public static void main(String[] args) {
         //initialize the scanner object 
         Scanner input = new Scanner(System.in);
+        input.close();
         
         //Provide the User a Welcome Message
         String companyName = "Acme Random Things Calculators Inc.";
